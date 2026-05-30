@@ -1,0 +1,30 @@
+#parent_div{
+    border: 2px solid black;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    background-color: rgba(0 , 0, 0, 0.2);
+}
+.child_div {
+    background-color: rgb(250, 251, 252);
+    border: 2px solid black;
+    height: fit-content;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+#game_image {
+    height: 300px;
+    width: 300px;
+}
+.child_div h1 {
+    margin-right: 50px;
+}
+.child_div h3 {
+    margin-right: 180px;
+}
+
