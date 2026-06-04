@@ -1,0 +1,25 @@
+nav {
+    display: flex;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    width: 800px;
+    margin: 10px auto;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    width: 200px;
+    height: 100px;
+    align-items: center;
+    padding: 20px;
+    margin: 10px auto;
+}
